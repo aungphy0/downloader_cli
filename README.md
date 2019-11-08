@@ -23,5 +23,5 @@ usage: downloader [-h] url nthreads
 
 Test URL:<br/>
 http://www.titikshapublicschool.com/wp-content/uploads/2018/11/developer-api.jpg<br/>
-https://www.bccls.org/BookClubBooks/Alchemist.pdf
+https://www.bccls.org/BookClubBooks/Alchemist.pdf<br/>
 http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf
