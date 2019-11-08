@@ -29,12 +29,8 @@ http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf
 
 ## Implementation Summary
 
-    When the downloader is running parse_arguments() method get called and return the value from the command <br/>linearguments which are the url and the threads number.
-
-    And then it call the download_file() method <br/>by passing the value of the url and threads.
-
-    In the download_file() method if the connection is okay <br/>then the program get the file name from the url to open the file to later write into it with the <br/>threads.
-
-    After that the program created the threads objects according to the arguments of nthreads, and <br/>each threads call the download() function to download the portion of the bytes from url by each <br/>threads and then it writes into the file which the program created earlier.
-
-    After the download got all <br/>the portions of the bytes, the program call thread join() to terminate each threads and the download <br/>is finished.
+    When the downloader is running parse_arguments() method get called and return the value from the command line arguments which are the url and the threads number.
+    And then it call the download_file() method by passing the value of the url and threads.
+    In the download_file() method if the connection is okay then the program get the file name from the url to open the file to later write into it with the threads.
+    After that the program created the threads objects according to the arguments of nthreads, and each threads call the download() function to download the portion of the bytes from url by each threads and then it writes into the file which the program created earlier.
+    After the download got all the portions of the bytes, the program call thread join() to terminate each threads and the download is finished.
