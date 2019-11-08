@@ -21,7 +21,7 @@ usage: downloader [-h] url nthreads
    - after press control + x and then y and then enter
    - now you can run the downloader command with the following test url  
 
-Test URL:
-http://www.titikshapublicschool.com/wp-content/uploads/2018/11/developer-api.jpg
+Test URL:<br/>
+http://www.titikshapublicschool.com/wp-content/uploads/2018/11/developer-api.jpg<br/>
 https://www.bccls.org/BookClubBooks/Alchemist.pdf
 http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf
