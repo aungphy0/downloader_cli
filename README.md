@@ -20,6 +20,7 @@ usage: downloader [-h] url nthreads
    - and then make alias by typing -> alias downloader = 'python3 downloader.py'
    - after press control + x and then y and then enter
    - now you can run the downloader command with the following test url  
+   - downloaded file will be in the downloader_cli directory 
 
 Test URL:<br/>
 http://www.titikshapublicschool.com/wp-content/uploads/2018/11/developer-api.jpg<br/>
