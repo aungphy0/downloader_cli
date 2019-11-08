@@ -12,6 +12,6 @@ usage: downloader [-h] url nthreads
    - to test the program linux/unix environment is needed
    - please install python3 on the machine to test the program
      (skip if you already have it)
-   - install pip3 from terminal (sudo apt-get install python3-pip)
-   - get the progress module with command (pip3 install progress)
+   - install pip3 from terminal    [sudo apt-get install python3-pip]
+   - get the progress module with command [pip3 install progress]
    -
