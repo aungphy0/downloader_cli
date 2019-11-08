@@ -3,7 +3,7 @@ $ downloader -h
 
 usage: downloader [-h] url nthreads
 
-positional arguments:
+positional arguments: \n
   url         URL of source file to download!
   nthreads    number of threads to download concurrently! Maximum threads can
               put is 10
