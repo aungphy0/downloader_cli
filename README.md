@@ -10,16 +10,18 @@ usage: downloader [-h] url nthreads
 
 ## Set up
    - to test the program linux/unix environment is needed
-   - use git command to clone the repo
-   - please install python3 on the machine to test the program
+   - use git command to clone the repo [git clone https://github.com/aungphy0/downloader_cli]
+   - install python3 on the machine to test the program [https://realpython.com/installing-python/]
      (skip if you already have it)
    - install pip3 from terminal    [sudo apt-get install python3-pip]
    - get the progress module with command [pip3 install progress]
-   - after go to .bash_profile with command [nano ~/.bash_profile]
+   - after installed progress module go to .bash_profile with command [nano ~/.bash_profile]
    - use the down arrow key to go to the last line
-   - and then make alias by typing -> alias downloader = 'python3 downloader.py'
-   - after press control + x and then y and then enter
-   - now you can run the downloader command with the following test url  
+   - and then make alias by typing -> alias downloader='python3 downloader.py'
+   - press control + x and then y and then enter
+   - refresh the shell environment by typing [source ~/.bash_profile]
+   - now you can run the downloader command with the following test url or
+     any source file url   
    - downloaded file will be in the downloader_cli directory
 
 Test URL:<br/>
