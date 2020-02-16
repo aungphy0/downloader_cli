@@ -17,7 +17,7 @@ usage: downloader [-h] url nthreads
    - get the progress module with command [pip3 install progress]
    - after installed progress module go to .bash_profile with command [nano ~/.bash_profile]
    - use the down arrow key to go to the last line
-   - and then make alias by typing -> alias downloader='python3 downloader.py'
+   - and then make alias by typing -> alias downloader='cd ~/path/to/downloader_cli && python3 downloader.py'
    - press control + x and then y and then enter
    - refresh the shell environment by typing [source ~/.bash_profile]
    - now you can run the downloader command with the following test url or
